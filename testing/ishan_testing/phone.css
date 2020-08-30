@@ -1,0 +1,105 @@
+#navbar h1{
+    line-height: 30px;
+    font-size: 1.8rem;
+}
+#navbar{
+    flex-direction: column;
+    height: 100px;
+}
+#navbar ul li{
+    padding: 0px 5px;
+}
+#navbar ul li a{
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 36px;
+}
+#navbar h1{
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
+#navbar ul li a{
+    /* line-height: 50px; */
+}
+#navbar > a{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    right: 10px;    
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    background-image: linear-gradient(90deg, #67e0e9 , #5b86e5);
+    z-index: 0;
+    height: 700px;
+    align-items: center;
+    text-align: center;
+}
+
+.leftside{
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.leftside img{
+    margin-top: 50px;
+    float: right;
+    height: 85%;
+    width: 95%;
+}
+.rightside{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.rightside h1{
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 6px 2px;
+}
+.rightside p{
+    margin: 4px 25px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.about-p{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.about img{
+    float: right;
+    height: 85%;
+    width: 95%;
+}
+.ishan{
+    display: flex;
+    justify-content: center;
+}
+.ishan_pic{
+
+}
+.ishan_pic img{
+    height: 135px;
+    width: 300px;
+}
